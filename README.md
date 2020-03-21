@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="subinsamrat.online">
-    <img alt="BlogLogo" src="./src/images/logo.png" width="60" />
+    <img alt="BlogLogo" src="./src/images/logo.png"/>
   </a>
 </p>
 <h1 align="center">
