@@ -78,7 +78,7 @@ a {
   box-shadow: var(--lightShadow);
 } */
 main {
-  min-height: 100vh;
+  min-height: calc(100vh - 62px);
   display: flex;
   flex-direction: column;
 }
