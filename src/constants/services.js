@@ -1,6 +1,6 @@
 import React from 'react'
-import {DiCodeBadge, DiPhotoshop, DiResponsive, DiCssTricks, DiWordpress, DiCss3Full} from 'react-icons/di'
-import {GoDesktopDownload, GoDeviceMobile} from 'react-icons/go'
+import {DiCodeBadge, DiPhotoshop, DiCssTricks, DiWordpress, DiCss3Full} from 'react-icons/di'
+import {GoDeviceMobile} from 'react-icons/go'
 
 export default [
 
