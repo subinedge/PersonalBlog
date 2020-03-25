@@ -4,7 +4,7 @@ import styles from '../../css/tour.module.css'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 const tutorial = ({tut}) => {
-  const {name, blogTag, dateOfPost, slug} = tut;
+  const {name, blogTag, dateOfPost, slug, excerpt} = tut;
   const thumbnail = tut.thumbnailImage.fluid;
   // console.log(thumbnail);
   
@@ -16,7 +16,10 @@ const tutorial = ({tut}) => {
       </div>
 
       <div className={styles.footer}>
-        <h3>{name}</h3>
+        <p className={styles.postDate}>{dateOfPost}</p>
+        <p className={styles.blogTag}>{blogTag}</p>
+        <AniLink fade to={`/blog/${slug}`}><h3>{name}</h3></AniLink>
+        <p className={styles.excerpt}>{excerpt.excerpt}</p>
       </div>
     </article>
   )

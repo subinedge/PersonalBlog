@@ -8,13 +8,16 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 export default () => {
   const response = useStaticQuery(graphql`
   query{
-    latestTutorial:allContentfulTutorialBlog(filter:{latestCheck:{eq:true}}){
+    latestTutorial:allContentfulTutorialBlog(limit:3,sort:{fields:dateOfPost, order:DESC}){
       edges{
         node{
           name
           blogTag
-          dateOfPost
+          dateOfPost(formatString:"MMMM Do, YYYY")
           slug
+          excerpt{
+            excerpt
+          }
           contentful_id
           latestCheck
           thumbnailImage{

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .tour {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
@@ -8,14 +10,14 @@
 
 .img-container {
   position: relative;
-  /* background: var(--primaryColor); */
+  background: var(--primaryColor);
   transition: var(--mainTransition);
 }
 .img {
   transition: var(--mainTransition);
 }
 .img-container:hover .img {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .link {
@@ -44,10 +46,47 @@
 .footer {
   padding: 1rem;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
 }
+
+.footer .post-date {
+  color: #303133;
+  margin-bottom:10px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
 .footer h3 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #303133;
+}
+
+.footer h3:hover {
+  color: #006CFF;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .blog-tag {
+  background: #006CFF;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 2px 5px 2px 5px;
+  border-radius: 2px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.footer .excerpt {
+  color:#777;
+  font-size: 15px;
+  word-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  word-wrap:break-word;
 }
 .info {
   display: flex;
