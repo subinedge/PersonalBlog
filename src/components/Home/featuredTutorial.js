@@ -1,6 +1,6 @@
 import React from 'react'
 import Tutorial from '../tutorial/tutorial'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from 'gatsby'
 import Title from '../Title'
 import styles from '../../css/items.module.css'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
@@ -19,18 +19,7 @@ export default () => {
             excerpt
           }
           contentful_id
-          latestCheck
           thumbnailImage{
-            fluid{
-              ...GatsbyContentfulFluid_tracedSVG
-            }
-          }
-          authorImage{
-            fluid{
-             ...GatsbyContentfulFluid_tracedSVG
-            }
-          }
-          blogHeaderImage{
             fluid{
               ...GatsbyContentfulFluid_tracedSVG
             }

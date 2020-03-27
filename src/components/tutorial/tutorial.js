@@ -19,7 +19,7 @@ const tutorial = ({tut}) => {
         <p className={styles.postDate}>{dateOfPost}</p>
         <p className={styles.blogTag}>{blogTag}</p>
         <AniLink fade to={`/blog/${slug}`}><h3>{name}</h3></AniLink>
-        <p className={styles.excerpt}>{excerpt.excerpt}</p>
+        {/* <p className={styles.excerpt}>{excerpt.excerpt}</p> */}
       </div>
     </article>
   )

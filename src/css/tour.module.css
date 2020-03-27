@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .tour {
   box-shadow: var(--lightShadow);
@@ -46,7 +46,7 @@
 .footer {
   padding: 1rem;
   text-align: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer .post-date {
@@ -57,10 +57,11 @@
 }
 
 .footer h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #303133;
+  letter-spacing: 1px;
 }
 
 .footer h3:hover {
@@ -81,36 +82,10 @@
 }
 
 .footer .excerpt {
-  color:#777;
-  font-size: 15px;
+  color:rgb(112, 109, 109);
+  font-size: 14px;
   word-spacing: 1px;
   margin-top: 5px;
   margin-bottom: 0;
   word-wrap:break-word;
-}
-.info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-transform: uppercase;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-.info h6,
-.info h4 {
-  margin-bottom: 0;
-}
-.country {
-  text-transform: capitalize;
-  color: var(--primaryColor);
-  display: flex;
-  align-items: center;
-}
-.icon {
-  margin-right: 0.4rem;
-}
-.details {
-  color: var(--darkGrey);
-  text-transform: uppercase;
-  text-align: right;
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import {FaFacebookF, FaTwitter, FaInstagram, FaGithub, FaLinkedinIn} from 'react-icons/fa'
+import {FaMediumM, FaTwitter, FaInstagram, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 
 export default [
   {
-    icon:<FaFacebookF/>,
-    url:'https://www.facebook.com/subin.edge'
+    icon:<FaMediumM/>,
+    url:'https://www.medium.com/subin'
   },
 
   {
